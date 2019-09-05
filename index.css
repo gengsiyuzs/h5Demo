@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.bigFont {
+    color: #fd5e02;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.top {
+    width: 100%;
+    /*height: 26rem;*/
+    position: relative;
+}
+
+.top .input {
+    background: #fff;
+    width: 90%;
+    border-radius: 2rem;
+    height: 3rem;
+    position: absolute;
+    top: 20rem;
+    left: 5vw;
+
+}
+
+.top .input .inputText {
+    line-height: 3rem;
+    margin-left: 1.3rem;
+    font-size: 0.6rem;
+    height: 90%;
+    outline: none;
+}
+
+.top .input a {
+    font-size: 0.6rem;
+    text-decoration: none;
+    color: #fd5e02;
+    margin-left: 0.6rem;
+}
+
+.title {
+    color: #fff;
+    margin: 4rem auto 0;
+    text-align: center;
+    line-height: 1.4rem;
+    border-radius: 1rem;
+    background: #fd5e02;
+    width: 80%;
+    position: relative;
+    z-index: 99;
+}
+
+.context {
+    height: 13rem;
+    margin: -0.7rem auto 0;
+    border: 1px solid #747171;
+    border-radius: 1rem;
+    width: 90%;
+    font-size: 0.8rem;
+}
+
+.context .contextNei {
+    margin: 2rem auto 0;
+    width: 90%;
+}
+
+.wu {
+    width: 100%;
+    /*height: 14rem;*/
+}
+
+.info {
+    margin: 0 auto 0.3rem;
+    border: 1px solid #747171;
+    border-radius: 1rem;
+    width: 90%;
+    font-size: 0.8rem;
+    box-shadow: -0.3rem 0.3rem #fd5e02;
+}
+
+.info .infoCon {
+    margin: 0.2rem auto 0.2rem;
+    width: 90%;
+}
+
+.fanghua {
+    margin-top: 1rem;
+    width: 100%;
+    /*height: 5rem;*/
+}
+
+.infoBot {
+    color: #fd5e02;
+    margin: 2rem auto 0.3rem;
+    border: 1px solid #747171;
+    border-radius: 1rem;
+    width: 90%;
+    font-size: 0.8rem;
+    box-shadow: 0.3rem 0.3rem #fd5e02;
+}
+
+.infoBot .infoConBot {
+    margin: 0.2rem auto 0.2rem;
+    width: 90%;
+}
+
+.colorText {
+    margin: 2rem auto 0.3rem;
+    border: 1px solid #747171;
+    border-radius: 1rem;
+    width: 90%;
+    font-size: 0.8rem;
+    background: #fd5e02;
+    color: #fff;
+}
+
+.colorText .texts {
+    margin: 0.2rem auto 0.2rem;
+    width: 90%;
+}
+
+.botPic {
+    width: 100%;
+    margin-bottom: 2.5rem;
+}
+
+.footer {
+    position: fixed;
+    display: none;
+    bottom: 0;
+    font-size: 0.7rem;
+    width: 100%;
+    height: 2.5rem;
+    background: #fd5e02;
+    overflow: hidden;
+    line-height: 2.5rem;
+    text-align: center;
+    color: #ffffff;
+}
+
+.footer .left {
+    float: left;
+    width: 40%;
+    background: #ffffff;
+    color: #fd5e02;
+    border-bottom: 1px solid #ffffff;
+}
+
+.footer .right {
+    float: left;
+    width: 60%;
+}

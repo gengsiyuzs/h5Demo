@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<div class="top">
+    <img src="./pic/top.jpg" alt="">
+    <div class="input">
+        <input class="inputText" type="text" placeholder="请输入您的手机号码">
+        <a href="">注册体验</a>
+    </div>
+</div>
+<div class="title">北京舞蹈学院天通苑中心</div>
+<div class="context">
+    <div class="contextNei">
+        位于天通苑新华未来城，交通便利，距地铁5号线的天通苑南站仅200米。
+        中心面积<span class="bigFont">3000余平米</span>,共有专业化
+        舞蹈教室<span class="bigFont">10间</span>,多元化小剧场供学员剧目排练,
+        并配有新风系统等配套设施设备。
+        现设有中国舞等级考试课程和芭蕾舞分级考试课程，中心师资力量雄厚。
+    </div>
+</div>
+<div class="wu">
+    <img src="./pic/wu.jpg" alt="">
+</div>
+<div class="info">
+    <div class="infoCon">
+        北京舞蹈学院天通苑中心，拥有<span class="bigFont">10间</span>专业的舞蹈教室，
+        每间<span class="bigFont">120㎡</span>,宽敞明亮,设施完备，是北京舞蹈学院舞蹈考
+        级的指定场所。
+    </div>
+</div>
+<div class="fanghua">
+    <img src="./pic/fanghua.jpg" alt="">
+</div>
+<div class="infoBot">
+    <div class="infoConBot">
+        舞蹈教室严格按照国际舞房标准设计和施工，选用10cm
+        的双层木质龙骨，加上标准厚度且弹性良好的实木地板，木地
+        板上铺有5mm的原装进口的小丑牌专业地胶，足感舒适、防滑，
+        能有效地减轻弹跳对关节的冲击力,最大限度地防止运动中受伤。
+    </div>
+</div>
+<div class="colorText">
+    <div class="texts">
+        每间教室都有独立的新风系统和空调系统，为
+        舞蹈活动中的孩子提供良好的通风条件和适宜的温度保障。
+    </div>
+</div>
+<div class="botPic">
+    <img src="./pic/bot.jpg" alt="">
+    <img src="./pic/bottom.jpg" alt="">
+</div>
+<div class="footer">
+    <div class="left">在线咨询</div>
+    <div class="right">注册领取体验课</div>
+</div>
+<script>
+    (function (doc, win) {
+        let docEl = doc.documentElement,
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+            recalc = function () {
+                let clientWidth = docEl.clientWidth;
+                if (!clientWidth) return;
+                docEl.style.fontSize = 20 * (clientWidth / 320) + 'px';
+            };
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+</script>
+<script src="index.js"></script>
+</body>
+</html>
